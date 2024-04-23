@@ -1,29 +1,28 @@
-function generateMarkdown(data){
-    return `
-     # ${data.title}
+
+     # README Genorator
 
 
      ## Description
 
-    ${data.description}
+    this is a program that generates READMEs
 
     ## Table of Contents
 
     find what you need here.
 
-    - [Installation]${data.installation}
-    - [Usage]${data.usage}
-    - [Credits]${data.contributors}
-    - [License]${data.license}
+    - [Installation]node js
+    - [Usage]the repo is used to generate a read me quickly for a project
+    - [Credits]paypal patreon anything that you think would help
+    - [License]MIT
 
     ## Installation
     these are the steps required to install the project:
-    ${data.installation}
+    node js
 
     ## Usage
 
     examples for use. Screenshots as needed.
-    ${data.usage}
+    the repo is used to generate a read me quickly for a project
 
     
 
@@ -31,13 +30,13 @@ function generateMarkdown(data){
 
     List of collaborators, with links to their GitHub profiles.
 
-    ${data.contributors}
+    paypal patreon anything that you think would help
 
 
 
     ## License
 
-    ${data.license}
+    MIT
      refer to [https://choosealicense.com/](https://choosealicense.com/).
 
     ---
@@ -56,13 +55,11 @@ function generateMarkdown(data){
 
 
     ## Questions
-    ${data.email}
+    geden11@gmail.com
 
     
     ## Tests
 
-    ${data.test}
+    echo
         
-    `
-}
-module.exports = generateMarkdown;
+    
